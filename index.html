@@ -1,17 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#victorNav"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img alt="Brand" src="...">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="victorNav">
+                <ul class="nav navbar-nav">
+                    <li>test</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <div class="container">
-        <p>this is a test</p>
+        <div class="row">
+            <aside class="col-md-5">
+                <ul class="nav nav-pills-stacked">
+                    <li role="presentation" class="active"><a href="#">Home</a></li>
+                    <li role="presentation"><a href="#">Profile</a></li>
+                    <li role="presentation"><a href="#">Messages</a></li>
+                  </ul>
+            </aside>
+        </div>
     </div>
+    <div class="container">
+        <div class="jumbotron">
+            <!-- <div class="container"> -->
+                <h1>I am in a container</h1>
+                <button type="button" class="btn btn-danger"><i class="fab fa-empire fa-7x"></i></button>
+            <!-- </div> -->
+        </div>
+        <div class="well">
+            <p>I am a basic well</p>
+        </div>
+        <div class="well well-sm">
+            <p>I am a small well</p>
+        </div>
+        <div class="well well-lg">
+            <p>I am a large well</p>
+        </div>
+        <div class="row">
+            <div class="col-md-4"><img src="img/catBack.jpg" alt="cat on a back" class="img-responsive"></div>
+            <div class="col-md-4"><img src="img/catBack.jpg" alt="cat on his back" class="img-responsive"></div>
+            <div class="col-md-4"><img src="img/catBack.jpg" alt="cat on her back" class="img-responsive"></div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
